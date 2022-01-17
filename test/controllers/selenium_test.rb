@@ -8,7 +8,7 @@ class SeleniumTest < ActionDispatch::IntegrationTest
 
   test "should see title" do
     @driver.navigate.to "http://localhost:3000"
-    assert_equal "ЛР 8", @driver.title
+    assert_equal "ЛР 11", @driver.title
   end
 
   test "should find buttons" do

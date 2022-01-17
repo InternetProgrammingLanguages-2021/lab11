@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'cache/index'
   root controller: 'front', action: 'index'
   get 'chunks/index'
   get 'front/index'
